@@ -1,0 +1,17 @@
+#端口号
+server:
+  port: 8090
+#邮箱环境配置
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 1051292147@qq.com
+    password: ossmpaotcbvybfij
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+    default-encoding: utf-8
